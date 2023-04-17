@@ -1,0 +1,29 @@
+{
+  "name": "get-youtube-subscribes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "author": "Venkatesh",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.2.0",
+    "mongoose": "^7.0.3",
+    "morgan": "^1.10.0",
+    "send": "^0.18.0",
+    "supertest": "^6.3.3",
+    "vercel": "^28.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
