@@ -31,7 +31,7 @@ http://localhost:7000/subscribers/:id
 ## RUN Locally
 Clone the project
 ```bash
- git clone https://github.com/vootavenkatesh/Get-Youtube-subscribers.git
+ git clone https://github.com/vootavenkatesh/Youtube-subscribers
  ```
 
 ## Install dependencies
