@@ -70,7 +70,7 @@ video link
 ### DEPLOYMENT:
 -------
 
-deployed link
+https://youtube-subscribers-887oun4qr-vootavenkatesh.vercel.app/
 
 
 -----------------------------------------------------------------------------------------
