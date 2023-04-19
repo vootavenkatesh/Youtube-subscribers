@@ -1,6 +1,6 @@
-# GET Youtube-Subscribers-Backend
+# Capstone Project:- GET Youtube-Subscribers-Backend
 -----------------------
-This is a node.js, express app to get the details of the Youtube Subscribers.
+This is a capstone project by using node.js, express app to get the details of the Youtube Subscribers in json format.
 
 ## There are four API endpoints in this app:
 
@@ -17,18 +17,31 @@ This is a node.js, express app to get the details of the Youtube Subscribers.
 
 
 1."/" default route- when app gets started this default route will render index.html file.
-https://youtube-subscribers-887oun4qr-vootavenkatesh.vercel.app/
+[http://localhost:7000/]
 
 2."/subscribers"- Returns the arrays of Subscribers.
-https://youtube-subscribers-887oun4qr-vootavenkatesh.vercel.app/subscribers
+[http://localhost:7000/subscribers]
 
 3."/subscribers/names"- Returns the array of Subscriber's names and subscribed channel.
-https://youtube-subscribers-887oun4qr-vootavenkatesh.vercel.app/subscribers/names
+[http://localhost:7000/subscribers/names]
 
 4."/subscriber/:id"-Returns the array of Subcribers details which is fetched using the id given.
-https://youtube-subscribers-887oun4qr-vootavenkatesh.vercel.app/subscribers/:id
+[http://localhost:7000/subscribers/:id]
+
+
+## Prerequisites
+Before running this application, you must have following softwares:
+
+.vscode: https://code.visualstudio.com/Download
+
+node.js: https://nodejs.org/en
+
+MongoDB:https://www.mongodb.com/try/download
+
+Postman: https://www.postman.com/downloads/
 
 ## RUN Locally
+
 Clone the project
 ```bash
  git clone https://github.com/vootavenkatesh/Youtube-subscribers
@@ -50,8 +63,6 @@ express
 
 cross-env
 
-morgan
-
 supertest
 
 ## start the server
@@ -72,7 +83,5 @@ video link
 
 https://youtube-subscribers-887oun4qr-vootavenkatesh.vercel.app/
 
-
------------------------------------------------------------------------------------------
-
-## Thank You.
+## 🛠 skills
+|MongoDB |Node.js |express.js |Mongoose
