@@ -31,7 +31,7 @@ describe("GET /subscribers",()=>{
 });
 
 describe("GET /subscribers/names", ()=>{
-    it("should return an array of subscribers name and subscribedChannel", async()=>{
+    it("should return an array of subscribers name and subscribed Channel", async()=>{
         const res = await request(app).get("/subscribers/names");
         expect(res.statusCode).toBe(200);
         expect(res.body.length).toBeGreaterThan(0);
@@ -39,7 +39,7 @@ describe("GET /subscribers/names", ()=>{
 });
 
 describe("GET /subscribers/:id", ()=>{
-    it("should return an array of subscribers name and subscribedChannel with id", async()=>{
+    it("should return an array of subscribers name and subscribed Channel with id", async()=>{
         const res = await request(app).get("/subscribers/643ada83e88dc7ebc3d61db3");
         expect(res.statusCode).toBe(200);
         expect(res.body._id).toBe("643ada83e88dc7ebc3d61db3");
