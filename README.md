@@ -17,16 +17,16 @@ This is a capstone project by using node.js, express app to get the details of t
 
 
 1."/" default route- when app gets started this default route will render index.html file.
-[http://localhost:7000/]
+[https://youtube-subscribers-phi.vercel.app/]
 
 2."/subscribers"- Returns the arrays of Subscribers.
-[http://localhost:7000/subscribers]
+[https://youtube-subscribers-phi.vercel.app/subscribers]
 
 3."/subscribers/names"- Returns the array of Subscriber's names and subscribed channel.
-[http://localhost:7000/subscribers/names]
+[https://youtube-subscribers-phi.vercel.app/names]
 
 4."/subscriber/:id"-Returns the array of Subcribers details which is fetched using the id given.
-[http://localhost:7000/subscribers/:id]
+[https://youtube-subscribers-phi.vercel.app/subscribers/:id]
 
 
 ## Prerequisites
@@ -84,3 +84,4 @@ https://youtube-subscribers-phi.vercel.app/
 
 ## 🛠 skills
 |MongoDB |Node.js |express.js |Mongoose
+
