@@ -34,6 +34,8 @@ Before running this application, you must have following softwares:
 
 .vscode: https://code.visualstudio.com/Download
 
+.gitbash: https://git-scm.com/downloads
+
 node.js: https://nodejs.org/en
 
 MongoDB:https://www.mongodb.com/try/download
