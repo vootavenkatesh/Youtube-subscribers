@@ -13,7 +13,7 @@ mongoose
     useUnifiedTopology: true,
 })
 .then(()=>{
-    console.log("Database connected");
+    console.log("Database connected"); /*once database connected then should shows "Database connected" */
 })
 .catch((err)=>{
     console.log("Error to connect database", err);
